@@ -1,0 +1,4 @@
+This script logs full output to /home/sergio/bookstack_install_1703605392.log which may help upon issues.
+
+Enter the domain (or IP if not using a domain) you want to host BookStack on and press [ENTER].
+Examples: my-site.com or docs.my-site.com or 192.168.2.70
