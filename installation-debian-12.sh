@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This script installs a new BookStack instance on a fresh Ubuntu 22.04 server."
+echo "This script installs a new BookStack instance on a fresh Debian 12 'bookworm' server."
 echo "This script does not ensure system security."
 echo ""
 
