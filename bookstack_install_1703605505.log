@@ -1,7 +1,7 @@
 This script logs full output to /home/sergio/bookstack_install_1703605505.log which may help upon issues.
 
 Enter the domain (or IP if not using a domain) you want to host BookStack on and press [ENTER].
-Examples: my-site.com or docs.my-site.com or 192.168.2.70
+Examples: my-site.com or docs.my-site.com or <private_IP>
 
 Installing using the domain or IP "sergio-jimenez.net"
 
@@ -143,7 +143,28 @@ Get:73 http://ftp.cica.es/mirrors/Linux/raspbian/raspbian bookworm/main armhf ss
 Preconfiguring packages ...
 Fetched 30.9 MB in 13s (2,377 kB/s)
 Selecting previously unselected package libapr1:armhf.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 64952 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 64952 files and directories currently installed.)
 Preparing to unpack .../0-libapr1_1.7.2-3_armhf.deb ...
 Unpacking libapr1:armhf (1.7.2-3) ...
 Selecting previously unselected package libaprutil1:armhf.
@@ -175,7 +196,28 @@ Preparing to unpack .../9-libsigsegv2_2.14-1_armhf.deb ...
 Unpacking libsigsegv2:armhf (2.14-1) ...
 Setting up libsigsegv2:armhf (2.14-1) ...
 Selecting previously unselected package gawk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65678 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 65678 files and directories currently installed.)
 Preparing to unpack .../00-gawk_1%3a5.2.1-2_armhf.deb ...
 Unpacking gawk (1:5.2.1-2) ...
 Selecting previously unselected package mysql-common.
@@ -219,7 +261,28 @@ update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.c
 Setting up mariadb-common (1:10.11.3-1+rpi1) ...
 update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
 Selecting previously unselected package mariadb-server.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66362 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 66362 files and directories currently installed.)
 Preparing to unpack .../00-mariadb-server_1%3a10.11.3-1+rpi1_armhf.deb ...
 Unpacking mariadb-server (1:10.11.3-1+rpi1) ...
 Selecting previously unselected package liberror-perl.
@@ -945,7 +1008,7 @@ To activate the new configuration, you need to run:
 Setup finished, your BookStack instance should now be installed!
 - Default login email: admin@admin.com
 - Default login password: password
-- Access URL: http://192.168.2.70/ or http://sergio-jimenez.net/
+- Access URL: http://<private_IP>/ or http://sergio-jimenez.net/
 - BookStack install path: /var/www/bookstack
 - Install script log: /home/sergio/bookstack_install_1703605505.log
 ---------------------------------------------------------------
